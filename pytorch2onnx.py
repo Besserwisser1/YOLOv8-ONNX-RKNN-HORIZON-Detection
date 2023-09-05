@@ -1,7 +1,7 @@
 import os, shutil
 from ultralytics import YOLO
 
-model_name = 'yolov8s'
+model_name = 'yolov8n'
 input_width = 640
 input_height = 640
 model_path = "./model"
