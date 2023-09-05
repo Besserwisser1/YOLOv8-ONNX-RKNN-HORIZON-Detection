@@ -2,12 +2,12 @@ import os, glob, shutil
 from rknn.api import RKNN
 
 input_width = 640
-input_height = 480
+input_height = 640
 model_path = "./model"
 dataset_path = "./dataset"
 config_path = "./config"
 dataset_file = "./dataset.txt"
-model_name = 'yolov8n'
+model_name = 'yolov8s'
 platform = "rk3588"
 ONNX_MODEL = f'{model_path}/{model_name}-{input_height}-{input_width}.onnx'
 OUT_NODE = ["output0"]
