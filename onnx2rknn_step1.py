@@ -1,8 +1,8 @@
 import os, glob, shutil
 from rknn.api import RKNN
 
-input_width = 640
-input_height = 640
+input_width = 1280
+input_height = 736
 model_path = "./model"
 dataset_path = "./dataset"
 config_path = "./config"
