@@ -5,7 +5,7 @@ from rknn.api import RKNN
 conf_thres = 0.25
 iou_thres = 0.45
 input_width = 1280
-input_height = 736
+input_height = 960
 model_name = 'yolov8n'
 model_path = "./model"
 config_path = "./config"

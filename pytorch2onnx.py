@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 model_name = 'yolov8n'
 input_width = 1280
-input_height = 736
+input_height = 960
 model_path = "./model"
 
 isExist = os.path.exists(model_path)
