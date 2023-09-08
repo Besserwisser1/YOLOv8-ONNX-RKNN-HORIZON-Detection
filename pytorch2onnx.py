@@ -2,8 +2,8 @@ import os, shutil
 from ultralytics import YOLO
 
 model_name = 'yolov8n'
-input_width = 640
-input_height = 640
+input_width = 1280
+input_height = 736
 model_path = "./model"
 
 isExist = os.path.exists(model_path)

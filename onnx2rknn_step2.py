@@ -4,8 +4,8 @@ from rknn.api import RKNN
 
 conf_thres = 0.25
 iou_thres = 0.45
-input_width = 640
-input_height = 640
+input_width = 1280
+input_height = 736
 model_name = 'yolov8n'
 model_path = "./model"
 config_path = "./config"
